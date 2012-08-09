@@ -1,4 +1,12 @@
-chef-god
-========
+Description
+===========
 
-Chef cookbook for installing and configuring God
+Requirements
+============
+
+Attributes
+==========
+
+Usage
+=====
+
