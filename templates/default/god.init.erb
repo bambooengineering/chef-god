@@ -19,7 +19,7 @@ case "$1" in
   ;;
     restart)
       $GOD terminate
-      $GOD -P /var/run/god.pid -l /var/log/god.log
+      $GOD -P /var/run/god.pid -l /var/log/god.log -c /etc/god.conf
       RETVAL=$?
   ;;
     status)
