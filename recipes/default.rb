@@ -3,10 +3,7 @@
 # Recipe:: default
 #
 
-rbenv_gem 'god' do
-  rbenv_version node[:rbenv][:global]
-  action :install
-end
+rbenv_gem 'god'
 
 group 'god' do
   action :create
